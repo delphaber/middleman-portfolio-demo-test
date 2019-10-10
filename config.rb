@@ -1,5 +1,9 @@
 require 'redcarpet'
 
+
+ignore '/templates/*'
+ignore /stylesheets.*/
+
 activate :directory_indexes
 activate :dato
 activate :pagination
@@ -24,8 +28,6 @@ helpers do
     markdown.render(text)
   end
 end
-
-ignore '/templates/*'
 
 dato.tap do |dato|
   paginate dato.works, "", "/templates/works.html", per_page: 5
