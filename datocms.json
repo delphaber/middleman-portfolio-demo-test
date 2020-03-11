@@ -1,0 +1,9 @@
+{
+  "name": "Middleman portfolio DatoCMS",
+  "previewImage": "https://raw.githubusercontent.com/datocms/gatsby-portfolio/master/preview.png",
+  "templateId": "273983",
+  "deploymentType": "static",
+  "datocmsApiTokenEnvName": "DATO_API_TOKEN",
+  "buildCommand": "bundle exec middleman build",
+  "buildDirectory": "build"
+}
