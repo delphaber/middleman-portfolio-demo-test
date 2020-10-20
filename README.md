@@ -8,7 +8,7 @@ First, install the dependencies of this project:
 
 ```
 bundle install
-yarn install
+npm install
 ```
 
 Add an `.env` file containing the read-only API token of your DatoCMS site:
