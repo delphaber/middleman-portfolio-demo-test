@@ -5,7 +5,8 @@ ignore '/templates/*'
 ignore /stylesheets.*/
 
 activate :directory_indexes
-activate :dato
+activate :dato,
+  api_base_url: 'https://site-api-staging.datocms.com'
 activate :pagination
 
 activate :external_pipeline,

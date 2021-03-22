@@ -2,6 +2,8 @@
 
 This repo contains a working static website written with [Middleman](https://middlemanapp.com/), integrated with content coming from this [DatoCMS administrative area](https://dashboard.datocms.com/account/sites/template?name=Portfolio&siteId=604).
 
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard-staging.datocms.com/deploy?repo=delphaber/middleman-portfolio-demo-test:master)
+
 ## Usage
 
 First, install the dependencies of this project:
